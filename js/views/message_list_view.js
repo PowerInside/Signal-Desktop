@@ -49,8 +49,11 @@
                 this.listenTo(view, 'afterChangeHeight', this.scrollToBottomIfNeeded);
                 if (this.collection.indexOf(model) === this.collection.length - 1) {
                     // add to the bottom.
+                    var scrolldown = this.$el.scrollTop() === this.el.scrollHeight - this.el.clientHeight;
                     this.$el.append(view.el);
-                    this.$el.scrollTop(this.el.scrollHeight); // TODO: Avoid scrolling if user has manually scrolled up?
+                    if (scrolldown) {
+                        this.$el.scrollTop(this.el.scrollHeight);
+                    }
                     this.measureScrollPosition();
                 } else {
                     // add to the top.
