@@ -16,7 +16,7 @@
 
 .conversation {
   max-width: 950px;
-  background-color: #ffffff;
+  background-color: #000000;
   margin: 10px auto;
   padding: 20px 20px 10px;
   border-radius: 10px;
@@ -24,7 +24,7 @@
   border-radius: 10px;
 
   ::-webkit-scrollbar-thumb {
-    background: rgba(0,0,0,0.15);
+    background: rgba(181, 181, 181, 0.92);
   }
 
   .panel {
@@ -406,7 +406,7 @@
     .bubble {
       clear: left;
       color: white;
-      background-color: $blue;
+      background-color: $grey_l;
 
       .meta {
         color: white;
@@ -424,7 +424,7 @@
 
       .attachments, .content {
         a {
-          color: $grey_l;
+          color: white;
         }
       }
       .content {
@@ -511,7 +511,7 @@
   margin-top: 4px;
   height: 36px;
   border-top: 1px solid $grey_l;
-  background: white;
+  background: black;
 
   button, input, textarea {
     color: $grey_d;
@@ -552,6 +552,7 @@
   .choose-file {
     float: left;
     height: 36px;
+    background: black;
   }
 
   .send-btn {
@@ -578,6 +579,7 @@
     display: block;
     width: calc(100% - #{$button-width});
     min-height: $header-height - 1px;
+    background: black;
     max-height: 100px;
     padding: 10px;
     border: 0;

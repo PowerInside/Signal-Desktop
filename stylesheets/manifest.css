@@ -88,15 +88,15 @@ button.back {
   .menu .menu-list {
     display: none;
     position: absolute;
-    color: #454545;
+    color: black;
     z-index: 1;
     top: 100%;
     right: 0;
     margin: 0;
     padding: 0;
-    border: solid 1px #2090ea;
+    border: solid 1px #141415;
     background-color: white;
-    box-shadow: 0 4px 3px 0px rgba(10, 62, 103, 0.8); }
+    box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.8); }
     .menu .menu-list li {
       display: block;
       white-space: nowrap; }
@@ -105,13 +105,11 @@ button.back {
         display: block;
         padding: 5px 15px 5px 10px; }
         .menu .menu-list li a:hover {
-          background-color: #f3f3f3; }
+          background-color: #6f7168; }
 
 .file-input {
   position: relative;
-  margin-right: 10px;
-  box-sizing: content-box;
-  border: 1px transparent solid; }
+  box-sizing: content-box; }
   .file-input .choose-file {
     cursor: pointer; }
   .file-input .paperclip {
@@ -156,7 +154,7 @@ img.emoji {
   display: inline-block;
   height: 44px;
   width: 44px;
-  background: #f3f3f3 url("/images/default.png") no-repeat center;
+  background: #6f7168 url("/images/default.png") no-repeat center;
   border-radius: 50%;
   background-size: cover;
   vertical-align: middle;
@@ -183,7 +181,7 @@ img.emoji {
     width: 0;
     bottom: 0;
     right: 0;
-    border-bottom: 10px solid #616161;
+    border-bottom: 10px solid #ffffff;
     border-left: 10px solid transparent; }
   .group-info-input input.name {
     padding: 0.5em;
@@ -225,7 +223,7 @@ img.emoji {
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    background-color: #2090ea;
+    background-color: #141415;
     color: white;
     border: solid 1px rgba(255, 255, 255, 0.6); }
 
@@ -238,7 +236,7 @@ img.emoji {
   margin: 10px;
   border-radius: 10px; }
   .contact.selected {
-    background: #f3f3f3;
+    background: #6f7168;
     padding-left: 22px;
     margin-left: 0;
     border-radius: 0 10px 10px 0; }
@@ -262,7 +260,7 @@ img.emoji {
     text-overflow: ellipsis;
     overflow-x: hidden; }
   .contact .number {
-    color: #616161;
+    color: #ffffff;
     font-size: small; }
 
 .recipients-input {
@@ -277,7 +275,7 @@ img.emoji {
     margin: 0 2px 2px 0;
     padding: 0 5px;
     border-radius: 10px;
-    background-color: #2090ea;
+    background-color: #141415;
     color: white; }
     .recipients-input .recipient.error {
       background-color: #f00; }
@@ -318,7 +316,7 @@ img.emoji {
     width: 16px;
     border-radius: 32px;
     border: solid 3px;
-    border-color: #a2d2f4 #a2d2f4 #f3f3f3 #f3f3f3 !important;
+    border-color: #a2d2f4 #a2d2f4 #6f7168 #6f7168 !important;
     animation: rotate 1s linear infinite; }
 @keyframes rotate {
   to {
@@ -345,12 +343,12 @@ img.emoji {
   margin: 1em auto;
   padding: 1em;
   font-family: inherit;
-  color: #616161;
-  background: #f3f3f3;
-  box-shadow: 0 0 10px -5px rgba(97, 97, 97, 0.5); }
+  color: #ffffff;
+  background: #6f7168;
+  box-shadow: 0 0 10px -5px rgba(255, 255, 255, 0.5); }
   .debug-log button:hover, .debug-log input[type=submit]:hover {
     color: black;
-    box-shadow: 0 0 10px -3px rgba(97, 97, 97, 0.7); }
+    box-shadow: 0 0 10px -3px rgba(255, 255, 255, 0.7); }
 .debug-log .result {
   text-align: center; }
   .debug-log .result a {
@@ -370,7 +368,7 @@ img.emoji {
     max-width: 350px;
     margin: 100px auto;
     padding: 1em;
-    background: white;
+    background: #141415;
     border-radius: 10px;
     overflow: auto;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2); }
@@ -420,7 +418,7 @@ img.emoji {
     .socket-status *:hover {
       background: url("/images/refresh.png") center; }
   .socket-status .connecting .icon {
-    background-color: #2090ea; }
+    background-color: #141415; }
   .socket-status .closing {
     background-color: #a2d2f4; }
   .socket-status .closed {
@@ -477,7 +475,7 @@ input.search {
   color: white;
   background: url("/images/pencil.png") no-repeat center center; }
   .tool-bar button.show-new-conversation:hover {
-    background-color: #ebebeb; }
+    background-color: #676961; }
 .tool-bar input.search {
   height: 26px;
   width: 270px;
@@ -500,7 +498,7 @@ input.search {
   display: none;
   cursor: pointer;
   opacity: 0.7;
-  background: #f3f3f3; }
+  background: #6f7168; }
   .new-contact .contact-details .number {
     display: block;
     font-style: italic;
@@ -509,8 +507,8 @@ input.search {
     opacity: 1; }
 
 .index {
-  color: #454545;
-  background: #2eace0; }
+  color: #ffffff;
+  background: #141415; }
   .index .gutter .new-group-update-form {
     display: none;
     padding: 0.5em; }
@@ -518,7 +516,7 @@ input.search {
     margin: 6px 0;
     font-size: small;
     font-weight: 300;
-    color: #616161; }
+    color: #ffffff; }
   .index .gutter .timestamp {
     position: absolute;
     top: 14px;
@@ -606,14 +604,14 @@ input.search {
 
 .conversation {
   max-width: 950px;
-  background-color: #ffffff;
+  background-color: #000000;
   margin: 10px auto;
   padding: 20px 20px 10px;
   border-radius: 10px;
   height: calc(100% - 20px);
   border-radius: 10px; }
   .conversation ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.15); }
+    background: rgba(181, 181, 181, 0.92); }
   .conversation .panel {
     height: 100%;
     display: flex;
@@ -683,7 +681,7 @@ input.search {
   padding: 10px 20px; }
   .message-detail .hasRetry button {
     margin: 5px;
-    background: #2090ea; }
+    background: #141415; }
     .message-detail .hasRetry button:before {
       content: '';
       display: inline-block;
@@ -696,11 +694,11 @@ input.search {
   max-width: 40em;
   margin: 1em  auto; }
 .message-detail .key-conflict-dialogue .verify {
-  color: #2090ea;
+  color: #141415;
   text-decoration: underline;
   cursor: pointer; }
 .message-detail .key-conflict-dialogue .resolve {
-  background: #2090ea; }
+  background: #141415; }
 .message-detail .message-container {
   background: white;
   padding: 1em 0; }
@@ -772,7 +770,7 @@ input.search {
   background: #d00; }
 .message-detail button.cancel {
   float: right;
-  color: #454545;
+  color: #ffffff;
   border: solid 1px #ccc; }
 
 .group-update {
@@ -891,8 +889,8 @@ input.search {
     float: left; }
   .message-detail .incoming .bubble,
   .message-list .incoming .bubble {
-    color: #454545;
-    background-color: #f3f3f3; }
+    color: #ffffff;
+    background-color: #6f7168; }
     .message-detail .incoming .bubble::before,
     .message-list .incoming .bubble::before {
       left: -10px;
@@ -900,7 +898,7 @@ input.search {
     .message-detail .incoming .bubble::after,
     .message-list .incoming .bubble::after {
       left: -8px;
-      border-right: 8px solid #f3f3f3; }
+      border-right: 8px solid #6f7168; }
   .message-detail .outgoing .avatar, .message-detail .outgoing .bubble,
   .message-list .outgoing .avatar,
   .message-list .outgoing .bubble {
@@ -909,7 +907,7 @@ input.search {
   .message-list .outgoing .bubble {
     clear: left;
     color: white;
-    background-color: #2090ea; }
+    background-color: #6f7168; }
     .message-detail .outgoing .bubble .meta,
     .message-list .outgoing .bubble .meta {
       color: white; }
@@ -920,20 +918,20 @@ input.search {
     .message-detail .outgoing .bubble::after,
     .message-list .outgoing .bubble::after {
       right: -8px;
-      border-left: 8px solid #2090ea; }
+      border-left: 8px solid #141415; }
     .message-detail .outgoing .bubble .attachments a, .message-detail .outgoing .bubble .content a,
     .message-list .outgoing .bubble .attachments a,
     .message-list .outgoing .bubble .content a {
-      color: #f3f3f3; }
+      color: white; }
     .message-detail .outgoing .bubble .content::selection, .message-detail .outgoing .bubble .content a::selection,
     .message-list .outgoing .bubble .content::selection,
     .message-list .outgoing .bubble .content a::selection {
-      color: #454545;
+      color: #ffffff;
       background: white; }
     .message-detail .outgoing .bubble .content::-moz-selection, .message-detail .outgoing .bubble .content a::-moz-selection,
     .message-list .outgoing .bubble .content::-moz-selection,
     .message-list .outgoing .bubble .content a::-moz-selection {
-      color: #454545;
+      color: #ffffff;
       background: white; }
   .message-detail .control .bubble .content,
   .message-list .control .bubble .content {
@@ -987,10 +985,10 @@ input.search {
 .bottom-bar {
   margin-top: 4px;
   height: 36px;
-  border-top: 1px solid #f3f3f3;
-  background: white; }
+  border-top: 1px solid #6f7168;
+  background: black; }
   .bottom-bar button, .bottom-bar input, .bottom-bar textarea {
-    color: #454545; }
+    color: #ffffff; }
   .bottom-bar button {
     position: absolute;
     top: 0;
@@ -1012,10 +1010,11 @@ input.search {
     .bottom-bar .attachment-previews .close {
       background: #999; }
       .bottom-bar .attachment-previews .close:hover {
-        background: #616161; }
+        background: #ffffff; }
   .bottom-bar .choose-file {
     float: left;
-    height: 36px; }
+    height: 36px;
+    background: black; }
   .bottom-bar .send-btn {
     float: right;
     height: 36px;
@@ -1034,6 +1033,7 @@ input.search {
     display: block;
     width: calc(100% - 36px);
     min-height: 35px;
+    background: black;
     max-height: 100px;
     padding: 10px;
     border: 0;
@@ -1069,15 +1069,15 @@ input.search {
     .confirmation-dialog .content .buttons button {
       float: right;
       margin-left: 10px;
-      background-color: #f3f3f3;
+      background-color: #6f7168;
       border-radius: 5px;
       outline: none;
       padding: 5px 8px;
       border: 1px solid #d9d9d9; }
       .confirmation-dialog .content .buttons button:focus {
-        border-color: #8d8d8d; }
+        border-color: #070706; }
       .confirmation-dialog .content .buttons button:hover {
         background-color: #d9d9d9;
-        border-color: silver; }
+        border-color: #3b3c37; }
 
 /*# sourceMappingURL=manifest.css.map */
