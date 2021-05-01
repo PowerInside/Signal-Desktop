@@ -11089,9 +11089,9 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-"libsignal-client@https://github.com/dennisameling/libsignal-client-node.git#dbf62b3744d0dfe7fc8231c2cf7909080f677088":
-  version "0.2.0"
-  resolved "https://github.com/dennisameling/libsignal-client-node.git#dbf62b3744d0dfe7fc8231c2cf7909080f677088"
+"libsignal-client@https://github.com/dennisameling/libsignal-client-node.git#e1429a8284cfd13daed8228422df1c60bfd46f9a":
+  version "0.3.3"
+  resolved "https://github.com/dennisameling/libsignal-client-node.git#e1429a8284cfd13daed8228422df1c60bfd46f9a"
   dependencies:
     bindings "^1.5.0"
 
@@ -15436,9 +15436,9 @@ rimraf@~2.2.8:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
 
-"ringrtc@https://github.com/dennisameling/signal-ringrtc-node.git#0709d0249a51466ae9dc83b92f9708b4dfc7f414":
-  version "2.9.3"
-  resolved "https://github.com/dennisameling/signal-ringrtc-node.git#0709d0249a51466ae9dc83b92f9708b4dfc7f414"
+"ringrtc@https://github.com/dennisameling/signal-ringrtc-node.git#e63b463256d7b05c29bcbeab1d5f855607e2c228":
+  version "2.9.6"
+  resolved "https://github.com/dennisameling/signal-ringrtc-node.git#e63b463256d7b05c29bcbeab1d5f855607e2c228"
 
 ripemd160@^2.0.0, ripemd160@^2.0.1:
   version "2.0.1"
